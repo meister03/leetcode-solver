@@ -1,0 +1,36 @@
+{
+    "name": "leetcode-solver",
+    "version": "0.0.1",
+    "description": "A package with handy functions to also solve Leetcode issues.",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "dependencies": {
+    },
+    "scripts": {
+        "lint": "eslint src/**/**.ts",
+        "lint:fix": "eslint src/**/**.ts --fix",
+        "format": "prettier --check .",
+        "format:fix": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/meister03/leetcode-solver.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "leetcode",
+        "util",
+        "functions",
+        "solve",
+        "leetcode-solver",
+        "algorithm"
+    ],
+    "author": "meister03",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/meister03/leetcode-solver/issues"
+    },
+    "homepage": "https://github.com/meister03/leetcode-solver#readme"
+}
